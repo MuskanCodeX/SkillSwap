@@ -1,0 +1,13 @@
+### 1. Test Register
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Rohan Sharma",
+  "email": "rohan@gmail.com",
+  "password": "password123",
+  "skillsOffered": [
+    { "skillName": "Java", "level": "Advanced" }
+  ],
+  "skillsWanted": ["Graphic Design", "UI/UX"]
+}
